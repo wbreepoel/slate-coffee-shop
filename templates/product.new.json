@@ -14,11 +14,16 @@
           "settings": {
             "shipping_notice_text": "Shipped within 30 days"
           }
+        },
+        "c419b374-f824-42af-91de-438f98bab107": {
+          "type": "product_price_block",
+          "settings": {}
         }
       },
       "block_order": [
         "18567c7c-d32c-44d1-a360-1b5fec91c75f",
-        "366b01c6-6308-4e6b-94e5-e78ae567f6a6"
+        "366b01c6-6308-4e6b-94e5-e78ae567f6a6",
+        "c419b374-f824-42af-91de-438f98bab107"
       ],
       "settings": {
         "show_reviews": false
@@ -26,6 +31,15 @@
     },
     "second": {
       "type": "main-test-product",
+      "blocks": {
+        "6770ae92-6650-42da-80bd-441ef270c69d": {
+          "type": "product_price_block",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "6770ae92-6650-42da-80bd-441ef270c69d"
+      ],
       "settings": {
         "show_reviews": true
       }
