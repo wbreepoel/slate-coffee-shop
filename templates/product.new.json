@@ -1,0 +1,38 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-test-product",
+      "blocks": {
+        "18567c7c-d32c-44d1-a360-1b5fec91c75f": {
+          "type": "tax_notice_block",
+          "settings": {
+            "tax_notice_text": "tax included"
+          }
+        },
+        "366b01c6-6308-4e6b-94e5-e78ae567f6a6": {
+          "type": "shipping_notice_block",
+          "settings": {
+            "shipping_notice_text": "Shipped within 30 days"
+          }
+        }
+      },
+      "block_order": [
+        "18567c7c-d32c-44d1-a360-1b5fec91c75f",
+        "366b01c6-6308-4e6b-94e5-e78ae567f6a6"
+      ],
+      "settings": {
+        "show_reviews": false
+      }
+    },
+    "second": {
+      "type": "main-test-product",
+      "settings": {
+        "show_reviews": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "second"
+  ]
+}
