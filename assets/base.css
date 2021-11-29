@@ -2112,3 +2112,40 @@ details-disclosure > details {
   color: rgb(var(--color-foreground));
   word-break: break-word;
 }
+
+/* testimonial slider */
+
+.user-name h4 {
+  margin: 0;
+}
+
+.testimonial_slider {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100%;
+  box-shadow: 2px 2px 2px 2px lightgrey;
+  text-align: center;
+  padding: 20px;
+  margin: 10px 40px;
+}
+
+.testimonial_slider:focus {
+  box-shadow: 2px 2px 2px 2px lightgrey;
+}
+
+.quote-image {
+  text-align: left;
+}
+
+.testimonial_slider .slider-text {
+  text-align: left;
+  margin: 20px 0 0 0;
+  font-size: 14px;
+}
+
+.user {
+  max-width: 35%;
+  border-radius: 50%;
+  margin: 20px auto;
+  
+}

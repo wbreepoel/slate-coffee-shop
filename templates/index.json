@@ -145,6 +145,59 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "163817265019d2e311": {
+      "type": "testimonial",
+      "blocks": {
+        "549595ca-7a0b-45e9-b907-fc4481d3eaa4": {
+          "type": "testimonial_slider",
+          "settings": {
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis aliquam faucibus purus in.<\/p>",
+            "name": "John",
+            "testimonial_image": "shopify:\/\/shop_images\/user_1_27964acb-7dc3-4644-a38a-06d707623af9.jpg"
+          }
+        },
+        "2c304fd8-572a-4b4e-8e12-7be9501fcec9": {
+          "type": "testimonial_slider",
+          "settings": {
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis aliquam faucibus purus in.<\/p>",
+            "name": "Lisa",
+            "testimonial_image": "shopify:\/\/shop_images\/user_2.jpg"
+          }
+        },
+        "21177fbf-dadf-4948-bebb-74d8fd6ec397": {
+          "type": "testimonial_slider",
+          "settings": {
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis aliquam faucibus purus in.<\/p>",
+            "name": "Kevin",
+            "testimonial_image": "shopify:\/\/shop_images\/user_3.jpg"
+          }
+        },
+        "af73d5f7-1cb2-4f64-8941-404636942260": {
+          "type": "testimonial_slider",
+          "settings": {
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis aliquam faucibus purus in.<\/p>",
+            "name": "Melvin",
+            "testimonial_image": "shopify:\/\/shop_images\/user_4.jpg"
+          }
+        },
+        "dccec91d-ff4b-4315-8d63-de1b3e1ea6bb": {
+          "type": "testimonial_slider",
+          "settings": {
+            "testimonial_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis aliquam faucibus purus in.<\/p>",
+            "name": "Linda",
+            "testimonial_image": "shopify:\/\/shop_images\/user_5.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "549595ca-7a0b-45e9-b907-fc4481d3eaa4",
+        "2c304fd8-572a-4b4e-8e12-7be9501fcec9",
+        "21177fbf-dadf-4948-bebb-74d8fd6ec397",
+        "af73d5f7-1cb2-4f64-8941-404636942260",
+        "dccec91d-ff4b-4315-8d63-de1b3e1ea6bb"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -153,6 +206,7 @@
     "163800406214e8a535",
     "image_text",
     "16380049572c75c59e",
-    "1638004959ad8b26f4"
+    "1638004959ad8b26f4",
+    "163817265019d2e311"
   ]
 }

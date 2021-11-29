@@ -1,0 +1,46 @@
+<div class="your-class">
+    {% for block in section.blocks %}
+    <div class="testimonial_slider">
+        <div class="quote-image">{% render 'icon-quotes.liquid'%}</div>
+        <div class="slider-text">
+            {{block.settings.testimonial_text}}
+        </div>
+        <div class="user-image"><img class="user" src="{{block.settings.testimonial_image | img_url : master }}" alt=""></div>
+        <div class="user-name"><h4>{{block.settings.name}}</h4></div>
+    </div>
+    {% endfor %}
+{% schema %}
+{
+    "name":"Testimonial Slider",
+    "settings":[],
+    "blocks": [
+    {
+        "type": "testimonial_slider",
+        "name":"testimonial block",
+        "settings":[
+        {
+            "type":"richtext",
+            "id":"testimonial_text",
+            "label": "Testimonial Text"
+        },
+        {
+            "type":"text",
+            "id":"name",
+            "label": "Name"
+        },
+        {
+            "type":"image_picker",
+            "id":"testimonial_image",
+            "label": "Image"
+        }]
+    }],
+    "presets":[
+    {
+        "name":"Testimonial Slider",
+        "settings": {
+        }
+        
+    }]
+}
+
+{% endschema %}
