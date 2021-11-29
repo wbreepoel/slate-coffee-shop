@@ -2149,3 +2149,16 @@ details-disclosure > details {
   margin: 20px auto;
   
 }
+
+.coffee-beans {
+  display: flex;
+}
+
+.coffee-info-table {
+  border: none;
+}
+
+.coffee-info-table td {
+  padding: 10px 20px;
+  width: 100%;
+}
